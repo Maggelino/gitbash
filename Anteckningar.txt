@@ -1,6 +1,6 @@
 Git bash 
 
--creating files and commiting to the repository
+-creating files, adding to stage and commiting to repository
 1. $ git --version
 2. $ git config --global user.name "Mariann McDonald" 
 3. $ git config --global user.email "ma_mcdonald@hotmail.com" (@ = alt +gr)
@@ -18,17 +18,14 @@ Git bash
 13. $ git status (view status)
 14. $ git commit -m (commits multiple files at once to the repository)
 
+-viewing the difference
+15. $ git diff 
 
-$ git add first.txt (add a specific file)
-$ git add . (. updates all changes)
 $ git rm file.txt (removes file from repo and deletes it from local file system)
 $ git rm --cached file.txt (remove from repo but not delete from local file system)
 $ git log (view all the commits)
 $ git log --author=Mariann" (view commits from specific person)
 $ git commit -m "remove file1.txt"
-$ git status (on branch master, nothing to commit, means git is watching all commits)
-$ git log (view all the commits)
-$ git diff 
 $ pwd (find out where Git is looking at right now)
 $ cd .. (takes you backwards)
 $ ls (lists all folders)
