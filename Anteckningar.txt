@@ -13,9 +13,12 @@ Git bash
 10. $ git commit -m "This is my first commit" (snapshot, you can come back to)
 11. $ git status (view status)
 
-
-
 -editing files
+12. $ git add . (. adds multiple files to the stage)
+13. $ git status (view status)
+14. $ git commit -m (commits multiple files at once to the repository)
+
+
 $ git add first.txt (add a specific file)
 $ git add . (. updates all changes)
 $ git rm file.txt (removes file from repo and deletes it from local file system)
