@@ -18,8 +18,20 @@ Git bash
 13. $ git status (view status)
 14. $ git commit -m (commits multiple files at once to the repository)
 
--viewing the difference
+-viewing the difference in working copy and repository
 15. $ git diff 
+
+-viewing the difference between stage and repository
+16. $ git diff --staged
+
+-delete files, different ways and commiting that change
+17. $ git rm third.txt (removes both working copy and repository)
+18. $ git commit -m "Deleted the third txt file" 
+
+
+-move and rename files
+19. $ git commit -m "Deleted the third txt file" 
+
 
 $ git rm file.txt (removes file from repo and deletes it from local file system)
 $ git rm --cached file.txt (remove from repo but not delete from local file system)
