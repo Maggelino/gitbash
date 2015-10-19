@@ -1,0 +1,46 @@
+Git bash
+
+1. $ git --version
+2. $ git config --global user.name "Mariann McDonald" 
+3. $ git config --global user.email "ma_mcdonald@hotmail.com" (@ = alt +gr)
+4. $ cd ~ (go to home before Desktop and Project)
+5. $ cd Desktop
+6. $ cd Project folder (this project called gitbash)
+7. $ git init (makes git to function)
+----- create a text file(s) in the folder gitbash and save as for example first.txt
+8. $ git add first.txt
+9. $ git commit -m "This is my first commit" (snapshot, you can come back to)
+10. $ git log (view all the commits)
+11. $ git commit -m "some more changes"
+12. $ git status
+13. $ git diff 
+
+$ git add . (. updates all changes)
+$ git rm file.txt (removes file from repo and deletes it from local file system)
+$ git rm --cached file.txt (remove from repo but not delete from local file system)
+$ git log (view all the commits)
+$ git log --author=Mariann" (view commits from specific person)
+$ git commit -m "remove file1.txt"
+$ git status (on branch master, nothing to commit, means git is watching all commits)
+$ pwd (find out where Git is looking at right now)
+$ cd .. (takes you backwards)
+$ ls (lists all folders)
+$ ls  -la (shows all files, DO NOT TOUCH THE HIDDEN FILES)
+$ clear (för att städa, dvs tar ej bort)
+$ git config user.email (för att kika på ngt specifikt and page pop-up)
+$ git help (help menue)
+
+
+working copy > staging area > repository
+creating a file = working copy 
+add = staging area
+commit = repository (git keeps track of files)
+
+
+Git with command line (wind+r)
+
+1. check if Git is installed and find project folder on desktop
+2. (add user and email)
+3. git init
+4. git status
+5. git commit
