@@ -1,5 +1,6 @@
-Git bash
+Git bash 
 
+-creating files and commiting to the repository
 1. $ git --version
 2. $ git config --global user.name "Mariann McDonald" 
 3. $ git config --global user.email "ma_mcdonald@hotmail.com" (@ = alt +gr)
@@ -7,14 +8,15 @@ Git bash
 5. $ cd Desktop
 6. $ cd Project folder (this project called gitbash)
 7. $ git init (makes git to function)
------ create a text file(s) in the folder gitbash and save as for example first.txt
-8. $ git add first.txt
-9. $ git commit -m "This is my first commit" (snapshot, you can come back to)
-10. $ git log (view all the commits)
-11. $ git commit -m "some more changes"
-12. $ git status
-13. $ git diff 
+8 create a text file(s) in the folder gitbash and save as for example first.txt
+9. $ git add first.txt
+10. $ git commit -m "This is my first commit" (snapshot, you can come back to)
+11. $ git status (view status)
 
+
+
+-editing files
+$ git add first.txt (add a specific file)
 $ git add . (. updates all changes)
 $ git rm file.txt (removes file from repo and deletes it from local file system)
 $ git rm --cached file.txt (remove from repo but not delete from local file system)
@@ -22,6 +24,8 @@ $ git log (view all the commits)
 $ git log --author=Mariann" (view commits from specific person)
 $ git commit -m "remove file1.txt"
 $ git status (on branch master, nothing to commit, means git is watching all commits)
+$ git log (view all the commits)
+$ git diff 
 $ pwd (find out where Git is looking at right now)
 $ cd .. (takes you backwards)
 $ ls (lists all folders)
