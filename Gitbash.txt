@@ -1,4 +1,4 @@
-Git bash manual
+Git bash manual...
 
 working copy > staging area > repository
 creating a file = working copy 
@@ -62,6 +62,23 @@ $ ls (lists all folders)
 $ ls  -la (shows all files, DO NOT TOUCH THE HIDDEN FILES)
 $ clear (för att städa, dvs tar ej bort)
 $ git help (help menue)
+
+______________________________________________________________
+
+Create a public github repository
+
+Connect git to github...
+
+$ git remote add gitbash (+ github url)
+
+$ git remote 
+gitbash
+
+$ git push -u gitbash master (push = adds files)(fetching = getting files)
+(fill in username when pops up...)
+(fill in password when pops up...)
+
+
 
 
 
