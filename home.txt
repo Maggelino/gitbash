@@ -1,1 +1,1 @@
-This is the first... and now I edited a little...and again to see the difference
+This is just a testfile created when tested how to use gitbash cmd

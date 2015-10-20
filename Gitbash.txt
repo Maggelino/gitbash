@@ -1,4 +1,9 @@
-Git bash 
+Git bash manual
+
+working copy > staging area > repository
+creating a file = working copy 
+add = staging area
+commit = repository (git keeps track of files)
 
 -creating files, adding to stage and commiting to repository
 1. $ git --version
@@ -28,39 +33,37 @@ Git bash
 17. $ git rm third.txt (removes both working copy and repository)
 18. $ git commit -m "Deleted the third txt file" 
 
-
 -change file name
 19. $ git mv second.txt sound.txt
 
 -create a folder called Music
--in gitbash move file to folder in and give a new name
+-in gitbash move file to folder and give a new name
 20. $ git mv sound.txt Music/party.txt
 
+-back from stage to working copy
+$ git reset HEAD about.html 
 
-$ git rm file.txt (removes file from repo and deletes it from local file system)
-$ git rm --cached file.txt (remove from repo but not delete from local file system)
+-back from repository to working copy
+$ git checkout -- index.html 
+
+-old versions back from repository
+$ git ......
+
+$ git commit -am "Some info text" (directly from working copy to repository, but notice grabs all files at once, only for a few files)
 $ git log (view all the commits)
 $ git log --author=Mariann" (view commits from specific person)
 $ git commit -m "remove file1.txt"
+$ git rm file.txt (removes file from repo and deletes it from local file system)
+$ git rm --cached file.txt (remove from repo but not delete from local file system)
+$ git log (view all the commits)
 $ pwd (find out where Git is looking at right now)
 $ cd .. (takes you backwards)
 $ ls (lists all folders)
 $ ls  -la (shows all files, DO NOT TOUCH THE HIDDEN FILES)
 $ clear (för att städa, dvs tar ej bort)
-$ git config user.email (för att kika på ngt specifikt and page pop-up)
 $ git help (help menue)
 
 
-working copy > staging area > repository
-creating a file = working copy 
-add = staging area
-commit = repository (git keeps track of files)
 
 
-Git with command line (wind+r)
 
-1. check if Git is installed and find project folder on desktop
-2. (add user and email)
-3. git init
-4. git status
-5. git commit
